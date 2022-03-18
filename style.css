@@ -53,7 +53,6 @@ main{
 
 div.advice-quote{
   font-family: 'Manrope', sans-serif;
-  /* font-size: 28px; */
   font-size: 2.2rem;
   line-height: 1.5;
   font-weight: 800;
@@ -88,7 +87,6 @@ div.advice-quote{
   height: 2px;
 }
 
-
 button.quote-toggle{
   margin: 0 auto;
   position: absolute;
@@ -108,4 +106,9 @@ button.quote-toggle{
 button.quote-toggle i{
   color: hsl(150, 100%, 66%);
   background-color: #233;
+}
+button.quote-toggle:hover{
+  transition: box-shadow .225s;
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+  cursor: pointer;
 }
