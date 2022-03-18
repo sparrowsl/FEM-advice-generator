@@ -1,0 +1,109 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/* Generic Styles */
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body{
+  background-color:
+  /* - Grayish Blue: */
+  /* hsl(217, 19%, 38%) */
+
+  /* - Dark Blue: */
+  hsl(218, 23%, 16%)
+  ;
+  font-family: 'Manrope', sans-serif;
+}
+main{
+  /* height: 100%; */
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.advice-card{
+  position: relative;
+  border-radius: 10px;
+  padding: 3em 3em;
+  background-color: hsl(217, 19%, 24%);
+  /* hsl(217, 19%, 24%) */
+  /* hsl(217, 19%, 38%); */
+}
+.advice-card h2{
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+div.advice-quote{
+  font-family: 'Manrope', sans-serif;
+  /* font-size: 28px; */
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+}
+.divider{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1.2em 0;
+  color: hsl(193, 38%, 86%);
+}
+.divider::after{
+  content: "";
+  background-color: hsl(218, 23%, 16%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 45%;
+  height: 2px;
+}
+.divider::before{
+  content: "";
+  background-color: hsl(218, 23%, 16%);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 45%;
+  height: 2px;
+}
+
+
+button.quote-toggle{
+  margin: 0 auto;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  /* Center the icon */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 100%;
+  background-color: hsl(150, 100%, 66%);
+}
+button.quote-toggle i{
+  color: hsl(150, 100%, 66%);
+  background-color: #233;
+}
