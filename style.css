@@ -87,7 +87,7 @@ div.advice-quote{
   height: 2px;
 }
 
-button.quote-toggle{
+.quote-toggle{
   margin: 0 auto;
   position: absolute;
   top: 90%;
@@ -103,11 +103,11 @@ button.quote-toggle{
   border-radius: 100%;
   background-color: hsl(150, 100%, 66%);
 }
-button.quote-toggle i{
+.quote-toggle i{
   color: hsl(150, 100%, 66%);
   background-color: #233;
 }
-button.quote-toggle:hover{
+.quote-toggle:hover{
   transition: box-shadow .225s;
   box-shadow: 0 0 20px hsl(150, 100%, 66%);
   cursor: pointer;
