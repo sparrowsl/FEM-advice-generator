@@ -1,5 +1,5 @@
 "use strict";
-const changeAdviceBtn = document.querySelector("button.quote-toggle");
+const changeAdviceBtn = document.querySelector(".quote-toggle");
 let currentAdvice = document.querySelector("div.advice-quote span");
 let adviceID = document.querySelector(".advice-id");
 const adviceURL = "https://api.adviceslip.com/advice";
